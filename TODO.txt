@@ -105,4 +105,4 @@ Mists of Pandaria Misc TODO:
 -- BattlePet
 -- BattleShop
 -- Items: 109013, 112327, 112326
--- fixed all DB Logs Errors
+-- Fix all DB Logs Errors

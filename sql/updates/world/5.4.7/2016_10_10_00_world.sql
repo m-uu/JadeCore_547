@@ -1,1 +1,1 @@
-UPDATE `access_requirement` SET `level_min`="85", `level_max`="85" WHERE `mapId`=961;
+UPDATE `access_requirement` SET `level_min`="86", `level_max`="86" WHERE `mapId`=961;
