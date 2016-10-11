@@ -4981,23 +4981,6 @@ COMMENT='latin1_swedish_ci'
 AUTO_INCREMENT=1
 
 ;
-
--- ----------------------------
--- Procedure structure for `myFunction`
--- ----------------------------
-DROP PROCEDURE IF EXISTS `myFunction`;
-DELIMITER ;;
-CREATE DEFINER=`root`@`localhost` PROCEDURE `myFunction`()
-BEGIN
-         DECLARE i INT DEFAULT 1;
-         WHILE (i<=128) DO
-                INSERT INTO spells VALUES(i,'s');
-                SET i=i+1;
-         END WHILE;
- END
-;;
-DELIMITER ;
-
 -- ----------------------------
 -- Indexes structure for table areatrigger_teleport
 -- ----------------------------
