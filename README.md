@@ -47,7 +47,7 @@ This source is completely free development of that depends on everyone. I hope t
 
 If you wish to contribute ideas or code please visit our website at the link below or to send requests to our [Github repository] (https://github.com/JadeEmu/JadeCore_547).
 
-For more information about the project, visit our website at project [JadeCore Open Source Emulator] (#)
+For more information about the project, visit our website at project [JadeCore Open Source Emulator] (https://jadecore.tk)
 
 
 ## Requirements
@@ -101,4 +101,4 @@ This project is brought to you thanks to:
 
 ## Links
 
-[Forums](https://jadecore.tk)
+[Forums](https://www.jadecore.tk)
