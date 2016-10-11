@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50624
 File Encoding         : 65001
 
-Date: 2016-10-09 20:10:09
+Date: 2016-10-10 22:06:21
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -4981,6 +4981,22 @@ COMMENT='latin1_swedish_ci'
 AUTO_INCREMENT=1
 
 ;
+
+-- ----------------------------
+-- Procedure structure for `myFunction`
+-- ----------------------------
+DROP PROCEDURE IF EXISTS `myFunction`;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `myFunction`()
+BEGIN
+         DECLARE i INT DEFAULT 1;
+         WHILE (i<=128) DO
+                INSERT INTO spells VALUES(i,'s');
+                SET i=i+1;
+         END WHILE;
+ END
+;;
+DELIMITER ;
 
 -- ----------------------------
 -- Indexes structure for table areatrigger_teleport
