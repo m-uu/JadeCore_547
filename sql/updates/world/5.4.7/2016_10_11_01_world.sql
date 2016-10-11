@@ -1,8 +1,6 @@
 -- Fix Table Spell Scripts
 -- By Bodeguero for JadeCore.
 
-SET FOREIGN_KEY_CHECKS=0;
-
 -- ----------------------------
 -- Table structure for `spell_scripts`
 -- ----------------------------
